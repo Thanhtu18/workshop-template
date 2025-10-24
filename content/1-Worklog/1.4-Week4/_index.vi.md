@@ -1,59 +1,46 @@
 ---
-title: "Worklog Tuần 4"
-date: "2025-08-14"
+title: "Nhật ký Tuần 4"
+date: "2025-09-29"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
+### Mục tiêu Tuần 4:
+
+* Triển khai AWS Backup để tự động hóa bảo vệ dữ liệu
+* Học AWS Storage Gateway cho lưu trữ hybrid cloud
+* Bắt đầu với các khái niệm cơ bản Amazon S3 và static website hosting
+
+### Nhiệm vụ thực hiện trong tuần:
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 1   | - Triển khai AWS Backup vào Hệ thống <br>&emsp;+ Giới thiệu AWS Backup và SNS <br>&emsp;+ Triển khai Hạ tầng <br>&emsp;+ Tạo Backup Plan cho tài nguyên AWS | 29/09/2025 | 29/09/2025 | <https://000013.awsstudygroup.com/> |
+| 2   | - Hoàn thiện thiết lập AWS Backup <br>&emsp;+ Cấu hình Cài đặt Thông báo với SNS <br>&emsp;+ Kiểm tra hoạt động Khôi phục <br>&emsp;+ Dọn dẹp Tài nguyên | 30/09/2025 | 30/09/2025 | <https://000013.awsstudygroup.com/> |
+| 3   | - Sử dụng File Storage Gateway <br>&emsp;+ Chuẩn bị và thiết lập <br>&emsp;+ Tạo Storage Gateway <br>&emsp;+ Tạo File Shares <br>&emsp;+ Mount File Sharing trên máy On-premise <br>&emsp;+ Dọn dẹp tài nguyên | 01/10/2025 | 01/10/2025 | <https://000024.awsstudygroup.com/> |
+| 4   | - Bắt đầu với Amazon S3 (Phần 1) <br>&emsp;+ Giới thiệu Amazon S3 <br>&emsp;+ Chuẩn bị và thiết lập <br>&emsp;+ Kích hoạt tính năng Static website <br>&emsp;+ Cấu hình public access block <br>&emsp;+ Cấu hình public objects <br>&emsp;+ Kiểm tra website | 02/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
+| 5   | - Tính năng nâng cao Amazon S3 (Phần 2) <br>&emsp;+ Tăng tốc Static website với CloudFront <br>&emsp;+ Bucket Versioning <br>&emsp;+ Di chuyển Objects <br>&emsp;+ Replication Object đa vùng <br>&emsp;+ Ghi chú & Thực hành tốt nhất | 03/10/2025 | 03/10/2025 | <https://000057.awsstudygroup.com/> |
 
 
-### Mục tiêu tuần 4:
+### 🏆 **Thành tựu Tuần 4**
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* **Hiểu rõ dịch vụ AWS Backup**
+  * Hiểu AWS Backup cho bảo vệ dữ liệu tập trung
+  * Tạo các Backup Plans tự động cho tài nguyên AWS
+  * Cấu hình chính sách backup cho EBS, RDS, DynamoDB và EFS
+  * Thiết lập hệ thống thông báo với AWS SNS
+  * Kiểm tra thành công các hoạt động backup và restore
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+* **Các khái niệm cơ bản Amazon S3 và Static Website Hosting**
+  * Nắm vững các khái niệm object storage của Amazon S3
+  * Cấu hình static website hosting trên S3
+  * Thiết lập public access blocks và quyền truy cập objects
+  * Triển khai CloudFront để tăng tốc website
+  * Học về S3 versioning và quản lý vòng đời object
 
-
-### Kết quả đạt được tuần 4:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Tính năng nâng cao S3**
+  * Cấu hình bucket versioning để bảo vệ dữ liệu
+  * Triển khai di chuyển objects và chính sách vòng đời
+  * Thiết lập cross-region replication cho disaster recovery
+  * Áp dụng các thực hành tốt nhất và khuyến nghị bảo mật S3
+  * Hiểu về các storage classes của S3 và tối ưu hóa chi phí

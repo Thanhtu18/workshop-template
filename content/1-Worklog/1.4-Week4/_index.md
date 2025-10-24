@@ -1,57 +1,46 @@
 ---
 title: "Week 4 Worklog"
-date: "2025-08-14"
+date: "2025-09-29"
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deploy AWS Backup to automate data protection
+* Learn AWS Storage Gateway for hybrid cloud storage
+* Start with Amazon S3 fundamentals and static website hosting
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 1   | - Deploy AWS Backup to the System <br>&emsp;+ Introduction to AWS Backup and SNS <br>&emsp;+ Deploy the Infrastructure <br>&emsp;+ Create Backup Plan for AWS resources | 29/09/2025 | 29/09/2025 | <https://000013.awsstudygroup.com/> |
+| 2   | - Complete AWS Backup Setup <br>&emsp;+ Configure Notification Settings with SNS <br>&emsp;+ Test Restore operations <br>&emsp;+ Resource Cleanup | 30/09/2025 | 30/09/2025 | <https://000013.awsstudygroup.com/> |
+| 3   | - Using File Storage Gateway <br>&emsp;+ Preparation and setup <br>&emsp;+ Create Storage Gateway <br>&emsp;+ Create File Shares <br>&emsp;+ Mount File Sharing on On-premise Machine <br>&emsp;+ Resource cleanup | 01/10/2025 | 01/10/2025 | <https://000024.awsstudygroup.com/> |
+| 4   | - Starting with Amazon S3 (Part 1) <br>&emsp;+ Introduction to Amazon S3 <br>&emsp;+ Preparation and setup <br>&emsp;+ Enable Static website feature <br>&emsp;+ Configure public access block <br>&emsp;+ Configure public objects <br>&emsp;+ Test website | 02/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
+| 5   | - Amazon S3 Advanced Features (Part 2) <br>&emsp;+ Speed up Static website with CloudFront <br>&emsp;+ Bucket Versioning <br>&emsp;+ Move Objects <br>&emsp;+ Replication Object multi Region <br>&emsp;+ Notes & Best Practices | 03/10/2025 | 03/10/2025 | <https://000057.awsstudygroup.com/> |
 
 
-### Week 4 Achievements:
+### 🏆 **Week 4 Achievements**
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **understand AWS Backup Service**
+  * Uunderstand AWS Backup for centralized data protection
+  * Created automated Backup Plans for AWS resources
+  * Configured backup policies for EBS, RDS, DynamoDB, and EFS
+  * Set up notification systems with AWS SNS
+  * Successfully tested backup and restore operations
 
-* Successfully created and configured an AWS Free Tier account.
+* **Amazon S3 Fundamentals and Static Website Hosting**
+  * Mastered Amazon S3 object storage concepts
+  * Configured static website hosting on S3
+  * Set up public access blocks and object permissions
+  * Implemented CloudFront for website acceleration
+  * Learned S3 versioning and object lifecycle management
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Advanced S3 Features**
+  * Configured bucket versioning for data protection
+  * Implemented object movement and lifecycle policies
+  * Set up cross-region replication for disaster recovery
+  * Applied S3 best practices and security recommendations
+  * Uunderstand S3 storage classes and cost optimization
