@@ -1,57 +1,58 @@
 ---
 title: "Week 5 Worklog"
-date: "2025-09-09"
+date: "2025-10-06"
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master AWS Storage Services and Amazon S3 comprehensive features
+* Learn AWS Backup and VM Import/Export strategies
+* Practice Storage Gateway for hybrid cloud storage solutions
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 1   | - **Module 04-01:** Dịch Vụ Lưu Trữ Trên AWS <br>&emsp;- **Module 04-02:** Amazon Simple Storage Service (S3) - Access Point - Storage Class <br>&emsp;- **Module 04-03:** S3 Static Website & CORS - Control Access - Object Key & Performance - Glacier <br>&emsp;- **Module 04-04:** Snow Family - Storage Gateway - Backup <br>&emsp;- **Lab 13:** AWS Backup Implementation <br>&emsp;+ Create S3 Bucket for backup storage <br>&emsp;+ Deploy backup infrastructure <br>&emsp;+ Create comprehensive Backup Plan <br>&emsp;+ Set up notification systems with SNS <br>&emsp;+ Test restore operations <br>&emsp;+ Clean up backup resources | 06/10/2025 | 06/10/2025 | <https://000013.awsstudygroup.com/> |
+| 2   | - **Lab 14:** VM Import/Export Complete Workflow <br>&emsp;+ Set up VMware Workstation environment <br>&emsp;+ Export Virtual Machine from on-premises <br>&emsp;+ Upload virtual machine to AWS S3 <br>&emsp;+ Import virtual machine to AWS EC2 <br>&emsp;+ Deploy Instance from custom AMI <br>&emsp;+ Configure S3 bucket ACL for VM storage <br>&emsp;+ Export virtual machine from EC2 Instance <br>&emsp;+ Resource cleanup on AWS Cloud | 07/10/2025 | 07/10/2025 | <https://000014.awsstudygroup.com/> |
+| 3   | - **Practice Day:** Hands-on Review <br>&emsp;+ Practice AWS Storage Services configuration <br>&emsp;+ Review S3 advanced features implementation <br>&emsp;+ Test AWS Backup scenarios <br>&emsp;+ Validate VM Import/Export workflow <br>&emsp;+ Troubleshooting common issues | 08/10/2025 | 08/10/2025 | |
+| 4   | - **Lab 24:** Storage Gateway Implementation <br>&emsp;+ Create Storage Gateway <br>&emsp;+ Create File Shares configuration <br>&emsp;+ Mount File shares on on-premises machine <br>&emsp;+ Test hybrid storage functionality <br>&emsp;- **Practice Session:** <br>&emsp;+ Storage Gateway troubleshooting <br>&emsp;+ Performance optimization <br>&emsp;+ Best practices review | 09/10/2025 | 09/10/2025 | <https://000024.awsstudygroup.com/> |
+| 5   | - **Comprehensive Practice & Review** <br>&emsp;+ End-to-end AWS Storage services workflow <br>&emsp;+ AWS Backup automation testing <br>&emsp;+ VM migration scenario practice <br>&emsp;+ Storage Gateway integration testing <br>&emsp;+ Week 5 knowledge consolidation | 10/10/2025 | 10/10/2025 | |
 
 
-### Week 5 Achievements:
+### 🏆 **Week 5 Achievements**
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Learned AWS Storage Services**
+  * Understood AWS storage service types and categories
+  * Learned S3 Access Points and Storage Classes
+  * Configured S3 Static Website hosting and CORS
+  * Explored S3 performance optimization and Glacier
+  * Studied AWS Snow Family and Storage Gateway
 
-* Successfully created and configured an AWS Free Tier account.
+* **Completed AWS Backup Implementation**
+  * Created S3 bucket for backup storage
+  * Deployed backup infrastructure successfully
+  * Set up backup plans and SNS notifications
+  * Tested data restore operations
+  * Cleaned up backup resources properly
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Mastered VM Import/Export Process**
+  * Set up VMware Workstation environment
+  * Exported and imported virtual machines
+  * Deployed instances from custom AMI
+  * Configured S3 bucket ACL for VM storage
+  * Completed VM migration with cleanup
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Implemented Storage Gateway**
+  * Created and configured Storage Gateway
+  * Set up File Shares successfully
+  * Mounted file shares on on-premises machines
+  * Tested hybrid storage functionality
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Gained Hands-on Experience**
+  * Practiced AWS Storage services configuration
+  * Performed backup and restore testing
+  * Completed VM migration scenarios
+  * Learned troubleshooting techniques
