@@ -1,57 +1,42 @@
 ---
 title: "Week 3 Worklog"
-date: "2025-08-13"
+date: "2025-09-22"
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Set up AWS Transit Gateway
+* Create Transit Gateway Attachments and Route Tables
+* Learn Amazon EC2 comprehensive concepts and services
+* Study EC2 Auto Scaling, EFS/FSx, Lightsail, and MGN
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ---- | ---------- | --------------- | ------------------ |
+| 1   | - Introduction to AWS Transit Gateway <br>&emsp;+ Understanding Transit Gateway concepts <br>&emsp;+ VPC Peering vs Transit Gateway comparison <br>&emsp;+ Transit Gateway benefits and use cases <br>&emsp;+ Review lab architecture and prerequisites | 22/09/2025 | 22/09/2025 | <https://000020.awsstudygroup.com/> |
+| 2   | - Create Transit Gateway <br>&emsp;+ Configure Transit Gateway parameters <br>&emsp;+ Set up Transit Gateway settings <br>&emsp;+ Review Transit Gateway configuration | 23/09/2025 | 23/09/2025 | <https://000020.awsstudygroup.com/>|
+| 3   | - Create Transit Gateway Attachments <br>&emsp;+ Attach VPCs to Transit Gateway <br>&emsp;+ Configure attachment settings <br>&emsp;+ Verify attachment status | 24/09/2025 | 24/09/2025 | <https://000020.awsstudygroup.com/>|
+| 4   | - Transit Gateway Route Tables & Testing <br>&emsp;+ Create Transit Gateway Route Tables <br>&emsp;+ Add Routes to VPC Route Tables <br>&emsp;+ Test connectivity between VPCs <br>&emsp;+ Resource cleanup | 25/09/2025 | 25/09/2025 | <https://000020.awsstudygroup.com/>|
+| 5   | - **Module 03-01:** Amazon EC2 Comprehensive Study <br>&emsp;+ EC2 Instance Types <br>&emsp;+ AMI / Backup / Key Pair <br>&emsp;+ Elastic Block Store <br>&emsp;+ Instance Store <br>&emsp;+ User Data <br>&emsp;+ Meta Data <br>&emsp;+ EC2 Auto Scaling <br>&emsp;- EFS/FSx - Lightsail - MGN| 26/09/2025 | 26/09/2025 | |
 
+### 🏆 **Week 3 Achievements**
 
-### Week 3 Achievements:
+* **Understand AWS Transit Gateway Concepts**
+  * Learn Transit Gateway vs VPC Peering
+  * Understand the Benefits of Scalable Network Architectures
+  * Review a lab architecture with four VPCs
+  * Properly Cleanup Transit Gateway Resources
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Configure Transit Gateway Attachments**
+  * Successfully Connect Multiple VPCs to Transit Gateway
+  * Verify Attachment and Connection Status
+  * Establish VPC-to-Transit Gateway Connections
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Amazon EC2 Comprehensive Concepts (Day 5)**
+  * Learned different EC2 instance families, types and sizing
+  * Understood AMI concepts, backup strategies and Key Pair management
+  * Studied EBS volume types, performance, snapshots and encryption
+  * Compared Instance Store vs EBS storage characteristics
