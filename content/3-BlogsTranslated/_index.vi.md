@@ -6,14 +6,11 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã dịch. Ví dụ:
 
-###  [Blog 1 - Getting started with healthcare data lakes: Using microservices](3.1-Blog1/)
-Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.
+###  [Blog 1 - Phát triển và giám sát ứng dụng Spark sử dụng dữ liệu hiện có trong Amazon S3 với Amazon SageMaker Unified Studio](3.1-Blog1/)
+Blog này hướng dẫn cách phát triển và giám sát ứng dụng Spark trong môi trường tích hợp của Amazon SageMaker Unified Studio. Bạn sẽ tìm hiểu cách giải quyết các thách thức trong quản lý big data analytics như môi trường phát triển phân mảnh, quản lý tài nguyên phức tạp và giám sát không nhất quán. Bài viết trình bày chi tiết cách thiết lập EMR Serverless, phát triển ứng dụng Spark với dataset TPC-DS trong notebook Jupyter, giám sát hiệu năng qua Spark UI, và tự động hóa workflow với Amazon MWAA. Đây là giải pháp thống nhất giúp các nhóm dữ liệu tập trung vào phân tích thay vì quản lý hạ tầng.
+
 ###  [Blog 2 - ...](3.2-Blog2/)
 Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.
 ###  [Blog 3 - ...](3.3-Blog3/)
