@@ -15,8 +15,6 @@ pre: " <b> 3.1. </b> "
 
 ---
 
-## Giới thiệu
-
 Các tổ chức thường đối mặt với thách thức đáng kể trong quản lý khối lượng công việc phân tích dữ liệu lớn (big data analytics). Nhóm dữ liệu gặp khó khăn với môi trường phát triển phân mảnh, quản lý tài nguyên phức tạp, giám sát không nhất quán và quy trình lập lịch thủ công rườm rà. Những vấn đề này dẫn đến chu kỳ phát triển kéo dài, sử dụng tài nguyên không hiệu quả, khắc phục sự cố mang tính phản ứng và pipeline dữ liệu khó duy trì. Những thách thức này đặc biệt nghiêm trọng đối với các doanh nghiệp xử lý hàng terabyte dữ liệu hàng ngày cho business intelligence (BI), báo cáo và machine learning (ML). Những tổ chức như vậy cần các giải pháp thống nhất để hợp lý hóa toàn bộ quy trình phân tích.
 
 Thế hệ tiếp theo của [Amazon SageMaker](https://aws.amazon.com/sagemaker/) kết hợp với [Amazon EMR](https://aws.amazon.com/emr/) trong [Amazon SageMaker Unified Studio](https://aws.amazon.com/sagemaker/unified-studio/) giải quyết những điểm đau này thông qua một môi trường phát triển tích hợp (IDE) nơi các nhân viên làm việc dữ liệu có thể phát triển, thử nghiệm và tinh chỉnh ứng dụng Spark trong một môi trường nhất quán. [Amazon EMR Serverless](https://aws.amazon.com/emr/serverless/) giảm bớt gánh nặng quản lý cụm bằng cách cấp phát tài nguyên động dựa vào yêu cầu khối lượng công việc, và các công cụ giám sát tích hợp giúp các nhóm nhanh chóng xác định điểm nghẽn hiệu năng.
