@@ -1,59 +1,43 @@
 ---
-title: "Worklog Tuần 8"
-date: "2025-09-09"
+title: "Nhật ký tuần 8"
+date: "2025-10-27"
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Ôn lại mô hình trách nhiệm chia sẻ (Shared Responsibility Model) và các dịch vụ bảo mật/IAM chính của AWS  
+* Học và thực hành AWS Security Hub với các tiêu chuẩn bảo mật  
+* Tìm hiểu cách tối ưu chi phí EC2 bằng tự động hóa với AWS Lambda   
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------- |
+| 1   | - **Module 05:** Các dịch vụ bảo mật và IAM trên AWS <br>&emsp;+ Module 05-01: Shared Responsibility Model <br>&emsp;+ Module 05-02: AWS Identity and Access Management (IAM) <br>&emsp;+ Module 05-03: Amazon Cognito <br>&emsp;+ Module 05-04: AWS Organizations <br>&emsp;+ Module 05-05: AWS Identity Center <br>&emsp;+ Module 05-06: AWS Key Management Service (KMS) <br>&emsp;+ Module 05-07: AWS Security Hub <br>&emsp;+ Module 05-08: Hands-on và tìm hiểu thêm | 27/10/2025 | 27/10/2025 | <https://000018.awsstudygroup.com/> |
+| 2   | - **Lab 18 (Phần 1):** Bắt đầu với AWS Security Hub <br>&emsp;+ Xem lại Security Standards và AWS Foundational Security Best Practices <br>&emsp;+ 2. Bật AWS Security Hub | 28/10/2025 | 28/10/2025 | <https://000018.awsstudygroup.com/> |
+| 3   | - **Lab 18 (Phần 2):** Đánh giá kết quả từ Security Hub <br>&emsp;+ 3. Xem điểm (score) cho từng nhóm tiêu chí <br>&emsp;+ Xem các findings và hiểu khuyến nghị bảo mật <br>&emsp;+ 4. Dọn dẹp tài nguyên lab Security Hub | 29/10/2025 | 29/10/2025 | <https://000018.awsstudygroup.com/> |
+| 4   | - **Lab 22:** Tối ưu chi phí EC2 với Lambda <br>&emsp;+ 1. Hiểu cách Lambda giúp tối ưu chi phí trong môi trường AWS <br>&emsp;+ 2. Chuẩn bị: <br>&emsp;&emsp;- 2.1 Tạo VPC <br>&emsp;&emsp;- 2.2 Tạo Security Group <br>&emsp;&emsp;- 2.3 Tạo EC2 instance <br>&emsp;&emsp;- 2.4 Cấu hình Slack incoming webhooks <br>&emsp;+ 3. Tạo Tag cho EC2 instance <br>&emsp;+ 4. Tạo IAM Role cho Lambda <br>&emsp;+ 5. Tạo Lambda Functions: <br>&emsp;&emsp;- 5.1 Hàm dừng (stop) instance <br>&emsp;&emsp;- 5.2 Hàm khởi động (start) instance <br>&emsp;+ 6. Kiểm tra kết quả và xác nhận tự động hóa hoạt động <br>&emsp;+ 7. Dọn dẹp tài nguyên | 30/10/2025 | 30/10/2025 | <https://000022.awsstudygroup.com/> |
+| 5   | - **Thực hành & Ôn tập:** <br>&emsp;+ Ôn lại các khái niệm chính của Module 05 về bảo mật và IAM <br>&emsp;+ Thực hành lại bật Security Hub và đọc các findings cơ bản <br>&emsp;+ Ôn lại Lambda start/stop EC2 để tối ưu chi phí <br>&emsp;+ Ghi lại một số best practice đơn giản về bảo mật và quản lý chi phí | 31/10/2025 | 31/10/2025 | <https://000018.awsstudygroup.com/>, <https://000022.awsstudygroup.com/> |
 
+### 🏆 **Thành tựu tuần 8**
 
-### Kết quả đạt được tuần 8:
+* **Kiến thức cơ bản về bảo mật và IAM trên AWS**
+  * Ôn lại mô hình trách nhiệm chia sẻ giữa AWS và khách hàng
+  * Hiểu các khái niệm chính của IAM, Cognito, AWS Organizations, Identity Center và KMS
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Sử dụng AWS Security Hub**
+  * Bật AWS Security Hub trong tài khoản
+  * Xem các Security Standards và AWS Foundational Security Best Practices
+  * Xem điểm số và các findings bảo mật cơ bản cho từng nhóm kiểm tra
+  * Dọn dẹp tài nguyên sau khi hoàn thành lab Security Hub
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* **Tối ưu chi phí EC2 với Lambda**
+  * Tạo VPC, security group và EC2 instance phục vụ cho lab
+  * Cấu hình Slack incoming webhooks để nhận thông báo
+  * Tạo tag cho instance để phục vụ tự động hóa
+  * Tạo IAM Role và các Lambda function để dừng/kích hoạt EC2
+  * Kiểm tra hoạt động của Lambda và xác nhận EC2 được điều khiển tự động
+  * Dọn dẹp tài nguyên EC2 và Lambda sau khi lab xong
 

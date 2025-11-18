@@ -1,59 +1,50 @@
 ---
-title: "Worklog Tuần 7"
-date: "2025-09-09"
+title: "Nhật ký tuần 7"
+date: "2025-10-20"
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu các khái niệm cơ bản và use case chính của Amazon S3  
+* Tạo và cấu hình S3 bucket để host website tĩnh  
+* Thực hành cấu hình quyền truy cập, tích hợp CloudFront và versioning  
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------- |
+| 1   | - **Module:** Bắt đầu với Amazon S3 <br>&emsp;+ Tìm hiểu các khái niệm cơ bản: bucket, object, region, host website tĩnh | 20/10/2025 | 20/10/2025 | <https://000057.awsstudygroup.com/> |
+| 2   | - **Lab (Phần 1):** Tạo và chuẩn bị S3 bucket <br>&emsp;2. Tạo S3 bucket <br>&emsp;2.1 Tải source code về máy (load data) <br>&emsp;3. Bật tính năng static website hosting | 21/10/2025 | 21/10/2025 | <https://000057.awsstudygroup.com/> |
+| 3   | - **Lab (Phần 2):** Quyền truy cập public và kiểm thử <br>&emsp;4. Cấu hình public access block <br>&emsp;5. Cấu hình object public <br>&emsp;6. Kiểm tra website tĩnh | 22/10/2025 | 22/10/2025 | <https://000057.awsstudygroup.com/> |
+| 4   | - **Lab (Phần 3):** CloudFront, versioning và replication <br>&emsp;7. Tăng tốc website tĩnh với CloudFront <br>&emsp;7.1 Chặn toàn bộ public access trực tiếp S3 <br>&emsp;7.2 Cấu hình Amazon CloudFront <br>&emsp;7.3 Kiểm tra truy cập qua CloudFront <br>&emsp;8. Bật bucket versioning <br>&emsp;9. Di chuyển object <br>&emsp;10. Replication object giữa nhiều Region <br>&emsp;11. Dọn dẹp tài nguyên <br>&emsp;12. Ghi chú và best practice | 23/10/2025 | 23/10/2025 | <https://000057.awsstudygroup.com/> |
+| 5   | - **Thực hành & Ôn tập:** <br>&emsp;+ Lặp lại toàn bộ quy trình S3 static website (tạo bucket, upload code, host website) <br>&emsp;+ Thực hành lại cấu hình public access, CloudFront và versioning <br>&emsp;+ Xem lại ghi chú và best practice từ lab | 24/10/2025 | 24/10/2025 | <https://000057.awsstudygroup.com/> |
 
+### 🏆 **Thành tựu tuần 7**
 
-### Kết quả đạt được tuần 7:
+* **Nắm cơ bản về Amazon S3**
+  * Hiểu Amazon S3 dùng để lưu trữ object trên cloud
+  * Nắm khái niệm bucket, object, region và website tĩnh trên S3
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Tạo và cấu hình S3 bucket**
+  * Tạo S3 bucket để host website tĩnh
+  * Tải source code về máy và upload dữ liệu lên S3
+  * Bật tính năng static website hosting cho bucket
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Quản lý public access và kiểm tra website**
+  * Cấu hình public access block cho bucket
+  * Đặt quyền public cho các object cần thiết
+  * Mở URL website tĩnh và kiểm tra hoạt động
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Tích hợp Amazon CloudFront**
+  * Chặn truy cập public trực tiếp vào S3 bucket
+  * Cấu hình CloudFront phân phối nội dung từ S3
+  * Kiểm tra truy cập website qua CloudFront, nhanh hơn và an toàn hơn
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Sử dụng versioning và replication**
+  * Bật bucket versioning để theo dõi thay đổi object
+  * Di chuyển object giữa các bucket/thư mục
+  * Cấu hình cross-Region replication cho object
 
 
