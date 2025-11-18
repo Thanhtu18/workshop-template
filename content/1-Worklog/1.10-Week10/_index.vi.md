@@ -1,59 +1,47 @@
 ---
-title: "Worklog Tuần 10"
-date: "2025-09-09"
-weight: 2
+title: "Nhật ký tuần 10"
+date: "2025-11-10"
+weight: 1
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thực hành mã hoá dữ liệu lưu trữ (encrypt at rest) với AWS KMS, S3, CloudTrail và Athena  
+* Ôn lại IAM Role, điều kiện (Condition) và các mẫu kiểm soát truy cập  
+* Thực hành cho ứng dụng truy cập AWS (EC2 → S3) bằng IAM Role  
+* Tìm hiểu các dịch vụ cơ sở dữ liệu chính trên AWS: RDS, Aurora, Redshift, ElastiCache  
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------- |
+| 1   | - **Lab 33:** Encrypt at rest with AWS KMS <br>&emsp;1. Introduction <br>&emsp;2. Preparation steps: <br>&emsp;&emsp;- 2.1 Tạo Policy và Role <br>&emsp;&emsp;- 2.2 Tạo Group và User <br>&emsp;3. Tạo AWS Key Management Service (KMS) key <br>&emsp;4. Tạo Amazon S3: <br>&emsp;&emsp;- 4.1 Tạo S3 bucket <br>&emsp;&emsp;- 4.2 Upload dữ liệu lên S3 <br>&emsp;5. Tạo AWS CloudTrail và Amazon Athena: <br>&emsp;&emsp;- 5.1 Tạo CloudTrail <br>&emsp;&emsp;- 5.2 Ghi log vào CloudTrail <br>&emsp;&emsp;- 5.3 Tạo Amazon Athena <br>&emsp;&emsp;- 5.4 Truy vấn log bằng Athena <br>&emsp;6. Kiểm tra và chia sẻ dữ liệu mã hoá trên S3 <br>&emsp;7. Dọn dẹp tài nguyên | 10/11/2025 | 10/11/2025 | <https://000033.awsstudygroup.com/> |
+| 2   | - **Lab 44:** IAM Role & Condition <br>&emsp;1. Giới thiệu về IAM <br>&emsp;&emsp;- 1.1 Request tới dịch vụ AWS <br>&emsp;&emsp;- 1.2 Xác thực (authenticate) request <br>&emsp;&emsp;- 1.3 Quy trình Assume Role <br>&emsp;2. Tạo IAM Group <br>&emsp;3. Tạo IAM User: <br>&emsp;&emsp;- 3.1 Tạo IAM Users <br>&emsp;&emsp;- 3.2 Kiểm tra quyền (permissions) <br>&emsp;4. Cấu hình Role Condition: <br>&emsp;&emsp;- 4.1 Tạo Admin IAM Role <br>&emsp;&emsp;- 4.2 Cấu hình Switch Role <br>&emsp;&emsp;- 4.3 Hạn chế quyền Role: <br>&emsp;&emsp;&emsp;• 4.3.1 Giới hạn switch role theo IP <br>&emsp;&emsp;&emsp;• 4.3.2 Giới hạn switch role theo thời gian <br>&emsp;5. Dọn dẹp tài nguyên | 11/11/2025 | 11/11/2025 | <https://000044.awsstudygroup.com/> |
+| 3   | - **Thực hành:** Ôn lại Lab 33 & Lab 44 <br>&emsp;+ Thực hành lại tạo và dùng KMS key để mã hoá dữ liệu S3 <br>&emsp;+ Ôn lại dùng CloudTrail và Athena để xem hoạt động KMS/S3 <br>&emsp;+ Thực hành lại IAM Role với Condition (IP, thời gian) và Switch Role <br>&emsp;+ Ghi chú ngắn về KMS, IAM Role và điều kiện truy cập | 12/11/2025 | 12/11/2025 | <https://000033.awsstudygroup.com/>, <https://000044.awsstudygroup.com/> |
+| 4   | - **Lab 48:** Granting authorization for an application to access AWS services with an IAM role <br>&emsp;1. Preparation (chuẩn bị): <br>&emsp;&emsp;- 1.1 Tạo EC2 instance <br>&emsp;&emsp;- 1.2 Tạo S3 bucket <br>&emsp;2. Dùng access key: <br>&emsp;&emsp;- 2.1 Tạo IAM user và access key <br>&emsp;&emsp;- 2.2 Dùng access key để truy cập S3 từ ứng dụng <br>&emsp;3. IAM Role trên EC2: <br>&emsp;&emsp;- 3.1 Tạo IAM Role <br>&emsp;&emsp;- 3.2 Dùng IAM Role trên EC2 thay cho access key <br>&emsp;4. Dọn dẹp tài nguyên | 13/11/2025 | 13/11/2025 | <https://000048.awsstudygroup.com/> |
+| 5   | - **Module 06:** AWS Database Services <br>&emsp;+ Module 06-01: Database Concepts Review (ôn lại khái niệm DB) <br>&emsp;+ Module 06-02: Amazon RDS & Amazon Aurora <br>&emsp;+ Module 06-03: Amazon Redshift & ElastiCache <br>&emsp;+ Ghi chú sự khác nhau giữa CSDL quan hệ, data warehouse và cache in-memory | 14/11/2025 | 14/11/2025 |  |
 
+### 🏆 **Thành tựu tuần 10**
 
-### Kết quả đạt được tuần 10:
+* **KMS và mã hoá dữ liệu lưu trữ**
+  * Tạo và sử dụng AWS KMS key để mã hoá dữ liệu
+  * Mã hoá dữ liệu trên S3 và xem log truy cập bằng CloudTrail, Athena
+  * Thử chia sẻ dữ liệu mã hoá trên S3 và dọn dẹp tài nguyên lab
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **IAM Role và điều kiện truy cập**
+  * Ôn lại các khái niệm IAM: request, authenticate, assume role
+  * Tạo IAM User, Group và Admin Role
+  * Áp dụng điều kiện (Condition) để giới hạn switch role theo IP và thời gian
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Ứng dụng truy cập AWS bằng IAM Role**
+  * Tạo EC2 instance và S3 bucket phục vụ lab
+  * Thử truy cập S3 bằng access key, sau đó chuyển sang dùng IAM Role
+  * Xác nhận EC2 truy cập S3 an toàn hơn khi dùng Role thay cho key dài hạn
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Tổng quan dịch vụ cơ sở dữ liệu**
+  * Ôn lại khái niệm cơ bản về cơ sở dữ liệu trên AWS
+  * Nắm tổng quan Amazon RDS và Aurora cho CSDL quan hệ
+  * Biết vai trò của Redshift (data warehouse) và ElastiCache (cache in-memory)
 
 
