@@ -1,59 +1,43 @@
 ---
-title: "Worklog Tuần 11"
-date: "2025-09-09"
-weight: 2
+title: "Nhật ký tuần 11"
+date: "2025-11-17"
+weight: 1
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thực hành xây dựng và quản lý cơ sở dữ liệu quan hệ với Amazon RDS  
+* Làm quen với các công cụ/mô hình migration CSDL (Lab 43)  
+* Xây dựng data lake đơn giản trên AWS với S3, Glue, Athena, QuickSight  
+* Học cách tạo và làm việc với Amazon DynamoDB, bao gồm backup và migration  
+* Hiểu rõ hơn sự khác nhau giữa CSDL quan hệ, NoSQL và phân tích dữ liệu trên AWS  
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------- |
+| 1   | - **Lab 05:** Amazon Relational Database Service (Amazon RDS) <br>&emsp;1. Introduction <br>&emsp;2. Prerequisite Steps: <br>&emsp;&emsp;- 2.1 Tạo VPC <br>&emsp;&emsp;- 2.2 Tạo EC2 Security Group <br>&emsp;&emsp;- 2.3 Tạo RDS Security Group <br>&emsp;&emsp;- 2.4 Tạo DB Subnet Group <br>&emsp;3. Tạo EC2 instance <br>&emsp;4. Tạo RDS database instance <br>&emsp;5. Triển khai ứng dụng (Application Deployment) <br>&emsp;6. Backup và Restore <br>&emsp;7. Dọn dẹp tài nguyên | 17/11/2025 | 17/11/2025 | <https://000005.awsstudygroup.com/> |
+| 2   | - **Lab 43:** (DB migration & tools) <br>&emsp;01. EC2 Connect RDP Client <br>&emsp;02. EC2 Connect Fleet Manager <br>&emsp;03. SQLSrv Src Config <br>&emsp;04. Oracle connect SrcDB <br>&emsp;05. Oracle config SrcDB <br>&emsp;06. Drop Constraint <br>&emsp;07. MSSQL to Aurora MySQL target config <br>&emsp;08. MSSQL to Aurora MySQL create project <br>&emsp;09. MSSQL to Aurora MySQL schema conversion <br>&emsp;10. Oracle to MySQL schema conversion (phần 1) <br>&emsp;11. Tạo Migration Task và Endpoint <br>&emsp;12. Kiểm tra dữ liệu trên S3 <br>&emsp;13. Tạo Serverless Migration <br>&emsp;14. Tạo Event Notification <br>&emsp;15. Xem Logs <br>&emsp;16. Troubleshoot kịch bản Mem Pressure <br>&emsp;17. Troubleshoot kịch bản Table Error | 18/11/2025 | 18/11/2025 | *Lab 43* |
+| 3   | - **Lab 35:** Data Lake on AWS <br>&emsp;1. Giới thiệu khái niệm Data Lake (Big Data) <br>&emsp;2. Preparation Steps <br>&emsp;3. Data Collection and Storage: <br>&emsp;&emsp;- 3.1 Tạo S3 Bucket <br>&emsp;&emsp;- 3.2 Tạo Delivery Stream (Kinesis Firehose hoặc tương đương) <br>&emsp;&emsp;- 3.3 Tạo Sample Data <br>&emsp;4. Tạo Data Catalog: <br>&emsp;&emsp;- 4.1 Tạo AWS Glue Crawler <br>&emsp;&emsp;- 4.2 Kiểm tra dữ liệu/catalog <br>&emsp;5. Data Transformation <br>&emsp;6. Phân tích và trực quan hóa: <br>&emsp;&emsp;- 6.1 Phân tích với Athena <br>&emsp;&emsp;- 6.2 Vẽ biểu đồ với QuickSight <br>&emsp;7. Dọn dẹp tài nguyên | 19/11/2025 | 19/11/2025 | <https://000035.awsstudygroup.com/> |
+| 4   | - **Thực hành:** Ôn lại Lab 05 & Lab 35 <br>&emsp;+ Thực hành lại tạo RDS instance và kết nối từ EC2 <br>&emsp;+ Ôn lại các bước Backup và Restore cho RDS <br>&emsp;+ Thực hành lại tạo S3 Bucket, Glue Crawler và chạy truy vấn Athena <br>&emsp;+ Ghi chú so sánh RDS (CSDL quan hệ) và Data Lake (S3 + Glue + Athena) | 20/11/2025 | 20/11/2025 | <https://000005.awsstudygroup.com/>, <https://000035.awsstudygroup.com/> |
+| 5 | - **Lab 39:** Học cách tạo và làm việc với Amazon DynamoDB <br>&emsp;1. LHOL: Thực hành phòng thí nghiệm cho Amazon DynamoDB <br>&emsp;2. Khám phá DynamoDB <br>&emsp;3. Khám phá Bảng điều khiển DynamoDB <br>&emsp;4. Sao lưu <br>&emsp;5. Dọn dẹp <br>&emsp;6. LADV: Các mẫu thiết kế nâng cao cho Amazon DynamoDB <br>&emsp;7. LMR: Xây dựng và triển khai ứng dụng không máy chủ toàn cầu với DynamoDB <br>&emsp;8. LEDA: Xây dựng kiến ​​trúc hướng sự kiện không máy chủ với DynamoDB | 21/11/2025 | 21/11/2025 | <https://000039.awsstudygroup.com/> |
+### 🏆 Thành tựu tuần 11
 
+* **Amazon RDS cơ bản**
+  * Tạo RDS database và kết nối từ EC2
+  * Thử triển khai ứng dụng và chạy backup/restore đơn giản
 
-### Kết quả đạt được tuần 11:
+* **Migration cơ sở dữ liệu**
+  * Làm quen với công cụ migration (SQL Server/Oracle → Aurora MySQL)
+  * Xem log, dữ liệu trên S3 và xử lý một số lỗi mẫu
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Data Lake trên AWS**
+  * Tạo S3 bucket, Glue Crawler và data catalog
+  * Truy vấn dữ liệu với Athena và xem báo cáo trên QuickSight
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Amazon DynamoDB**
+  * Tạo bảng DynamoDB và nạp dữ liệu mẫu
+  * Thử đọc/ghi dữ liệu bằng CLI và Console, xem các tuỳ chọn backup
 
 
