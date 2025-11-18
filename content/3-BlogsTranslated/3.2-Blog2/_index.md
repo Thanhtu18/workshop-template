@@ -5,7 +5,7 @@ weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-# Democratizing data for timely decisions with text-to-SQL at Parcel Perform
+# Democratize data for timely decisions with text-to-SQL at Parcel Perform
 
 by Yudho Ahmad Diponegoro, Le Vy, and Jun Kai Loke | on July 09, 2025 | in [Amazon Athena](https://aws.amazon.com/athena/), [Amazon Bedrock](https://aws.amazon.com/bedrock/), [Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/), [Business Intelligence](https://aws.amazon.com/business-intelligence/), [Customer Solutions](https://aws.amazon.com/solutions/), [Generative AI](https://aws.amazon.com/generative-ai/), [Intermediate (200)](https://aws.amazon.com/training/), [Supply Chain](https://aws.amazon.com/supply-chain/)
 
