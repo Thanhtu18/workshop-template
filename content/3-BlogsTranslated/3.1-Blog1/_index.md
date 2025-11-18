@@ -9,9 +9,7 @@ pre: " <b> 3.1. </b> "
 
 # Develop and monitor a Spark application using existing data in Amazon S3 with Amazon SageMaker Unified Studio
 
-**Authors:** Amit Maindola and Abhilash Nagilla  
-**Date:** July 9, 2025  
-**Categories:** [Amazon SageMaker Data & AI Governance](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-data-ai-governance/), [Amazon SageMaker Lakehouse](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-lakehouse/), [Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-unified-studio/), [Analytics](https://aws.amazon.com/blogs/big-data/category/analytics/), [Technical How-to](https://aws.amazon.com/blogs/big-data/category/post-types/technical-how-to/)
+by Amit Maindola and Abhilash Nagilla | on July 9, 2025 | in [Amazon SageMaker Data & AI Governance](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-data-ai-governance/), [Amazon SageMaker Lakehouse](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-lakehouse/), [Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-unified-studio/), [Analytics](https://aws.amazon.com/blogs/big-data/category/analytics/), [Technical How-to](https://aws.amazon.com/blogs/big-data/category/post-types/technical-how-to/)
 
 ---
 

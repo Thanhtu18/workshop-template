@@ -9,9 +9,7 @@ pre: " <b> 3.1. </b> "
 
 # Phát triển và giám sát ứng dụng Spark sử dụng dữ liệu hiện có trong Amazon S3 với Amazon SageMaker Unified Studio
 
-**Tác giả:** Amit Maindola và Abhilash Nagilla  
-**Ngày:** 09 tháng 7 năm 2025  
-**Danh mục:** [Amazon SageMaker Data & AI Governance](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-data-ai-governance/), [Amazon SageMaker Lakehouse](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-lakehouse/), [Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-unified-studio/), [Analytics](https://aws.amazon.com/blogs/big-data/category/analytics/), [Technical How-to](https://aws.amazon.com/blogs/big-data/category/post-types/technical-how-to/)
+Tác giả:Amit Maindola và Abhilash Nagilla | Ngày: 09 tháng 7 năm 2025 | Danh mục: [Amazon SageMaker Data & AI Governance](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-data-ai-governance/), [Amazon SageMaker Lakehouse](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-lakehouse/), [Amazon SageMaker Unified Studio](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-sagemaker-unified-studio/), [Analytics](https://aws.amazon.com/blogs/big-data/category/analytics/), [Technical How-to](https://aws.amazon.com/blogs/big-data/category/post-types/technical-how-to/)
 
 ---
 
