@@ -11,8 +11,7 @@ pre: " <b> 1.11. </b> "
 * Thực hành xây dựng và quản lý cơ sở dữ liệu quan hệ với Amazon RDS  
 * Làm quen với các công cụ/mô hình migration CSDL (Lab 43)  
 * Xây dựng data lake đơn giản trên AWS với S3, Glue, Athena, QuickSight  
-* Học cách tạo và làm việc với Amazon DynamoDB, bao gồm backup và migration  
-* Hiểu rõ hơn sự khác nhau giữa CSDL quan hệ, NoSQL và phân tích dữ liệu trên AWS  
+* Học cách tạo và làm việc với Amazon DynamoDB, bao gồm backup và migration   
 
 ### Các công việc trong tuần:
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |

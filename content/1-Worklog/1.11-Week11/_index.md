@@ -11,8 +11,7 @@ pre: " <b> 1.11. </b> "
 * Practice building and managing relational databases using Amazon RDS  
 * Explore database migration tools and scenarios with Lab 43  
 * Build a simple data lake on AWS with S3, Glue, Athena, and QuickSight  
-* Learn to create and work with Amazon DynamoDB, including backups and migration  
-* Strengthen understanding of relational vs NoSQL databases and data analytics on AWS  
+* Learn to create and work with Amazon DynamoDB, including backups and migration    
 
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |

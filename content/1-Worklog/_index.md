@@ -6,30 +6,30 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+**On this page**, I will give an overview of my work log: I completed the internship program within 12 weeks, each week I studied theory, did labs and recorded what I did with other AWS services.
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+The work log was done over about 3 months, so I divided the content into 12 weeks as below so that I can know what I did in each week and what AWS knowledge and skills I learned.
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
 
-**Week 2:** [Setting up Hybrid DNS with Route 53 Resolver and VPC Peering](1.2-week2/)
+**Week 1:** [ Understand basic AWS services, how to use the console & CLI.](1.1-week1/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 2:** [Set up Hybrid DNS with Route 53 Resolver and VPC peering](1.2-week2/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 3:** [Set up AWS Transit Gateway. Create Transit Gateway Attachments and Route Tables. Learn Amazon EC2 comprehensive concepts and services. Study EC2 Auto Scaling, EFS/FSx, Lightsail, and MGN](1.3-week3/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 4:** [Deploy AWS Backup to automate data protection. Learn AWS Storage Gateway for hybrid cloud storage. Start with Amazon S3 fundamentals and static website hosting](1.4-week4/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 5:** [DMaster AWS Storage Services and Amazon S3 comprehensive features. Learn AWS Backup and VM Import/Export strategies. Practice Storage Gateway for hybrid cloud storage solutions](1.5-week5/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 6:** [DUnderstand Amazon FSx for Windows File Server architecture and use cases. Deploy and configure multi-AZ FSx file systems (SSD & HDD). Practice performance testing, monitoring, and optimization on FSx](1.6-week6/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
+**Week 7:** [Understand Amazon S3 fundamentals and main use cases. Create and configure S3 buckets for static website hosting. Practice access control, CloudFront integration, and versioning](1.7-week7/)
+**Week 8:** [DReview AWS shared responsibility model and core security/IAM services. Learn and practice AWS Security Hub with security standards. Learn how to optimize EC2 costs using AWS Lambda automation ](1.8-week8/)
 
-**Week 9:** [Doing task I...](1.9-week9/)
+**Week 9:** [Learn how to use tags to manage AWS resources. Practice creating Resource Groups and filtering resources by tags. Manage access to EC2 using resource tags and IAM policies. Understand IAM permission boundaries and how to limit user permissions](1.9-week9/)
 
-**Week 10:** [Doing task L...](1.10-week10/)
+**Week 10:** [Practice encryption at rest using AWS KMS with S3 and CloudTrail/Athena. Review IAM roles, conditions, and access control patterns. Practice IAM roles for applications (EC2 -> S3). Learn core AWS database services: Amazon RDS, Aurora, Redshift, ElastiCache](1.10-week10/)
 
-**Week 11:** [Doing task M...](1.11-week11/)
+**Week 11:** [Practice building and managing relational databases using Amazon RDS. Explore database migration tools and scenarios with Lab 43. Build a simple data lake on AWS with S3, Glue, Athena, and QuickSight. Learn to create and work with Amazon DynamoDB, including backups and migration](1.11-week11/)
 
-**Week 12:** [Doing task N...](1.12-week12/)
+**Week 12:** [Practice building and inspecting cost-related data in AWS. Get familiar with different ways to interact with AWS (CloudShell, Console, SDK). Use AWS Glue DataBrew and Cloud9 to prepare and transform data. Build an end-to-end analytics pipeline with Glue, EMR, Athena, Kinesis Data Analytics, QuickSight, Lambda, and Redshift](1.12-week12/)

@@ -1,58 +1,40 @@
 ---
-title: "Worklog Tuần 12"
-date: "2025-09-09"
+title: "Nhật ký tuần 12"
+date: "2025-11-24"
 weight: 2
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thực hành xây dựng và xem dữ liệu chi phí/sử dụng trên AWS  
+* Làm quen các cách làm việc với AWS: CloudShell, Console, SDK  
+* Sử dụng Cloud9 và AWS Glue DataBrew để chuẩn bị và xử lý dữ liệu  
+* Thực hành pipeline phân tích dữ liệu end-to-end với Glue, EMR, Athena, Kinesis Data Analytics, QuickSight, Lambda, Redshift  
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Các công việc trong tuần:
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --------- | ------------ | --------------- | ------------------- |
+| 1   | - **Lab 40:** (Cost và Usage Data) <br>&emsp;2.1 Chuẩn bị database (Preparing the database) <br>&emsp;2.2 Xây dựng database (Building a database) <br>&emsp;3.1 Data in the Table <br>&emsp;3.2 Cost <br>&emsp;3.3 Tagging and Cost Allocation <br>&emsp;3.4 Usage <br>&emsp;3.5 Additional Result Query <br>&emsp;4 Clean up resources | 24/11/2025 | 24/11/2025 | <https://000040.awsstudygroup.com/> |
+| 2   | - **Lab 60 & Lab 70:** Công cụ AWS và chuẩn bị dữ liệu <br>&emsp;**Lab 60:** CloudShell, Console, SDK <br>&emsp;**Lab 70:** Cloud9, Dataset, S3 và AWS Glue DataBrew (profiling, clean & transform) | 25/11/2025 | 25/11/2025 | <https://000060.awsstudygroup.com/>, <https://000070.awsstudygroup.com/> |
+| 3   | - **Thực hành:** Ôn lại Lab 40 & Lab 70 <br>&emsp;+ Thực hành xem lại dữ liệu cost/usage và query trong Lab 40 <br>&emsp;+ Thực hành dùng Cloud9 và S3 để chuẩn bị dữ liệu <br>&emsp;+ Thực hành tạo và chạy job DataBrew để profiling/clean dữ liệu <br>&emsp;+ Ghi chú ngắn về cách các công cụ này hỗ trợ cost & data preparation | 26/11/2025 | 26/11/2025 | <https://000040.awsstudygroup.com/>, <https://000070.awsstudygroup.com/> |
+| 4   | - **Lab 72:** Pipeline phân tích dữ liệu end-to-end <br>&emsp;Bước chuẩn bị, ingest & store, catalog dữ liệu <br>&emsp;Biến đổi dữ liệu với Glue (interactive & GUI), DataBrew, EMR <br>&emsp;Phân tích với Athena và Kinesis Data Analytics <br>&emsp;Trực quan hóa với QuickSight, serve với Lambda, warehouse trên Redshift | 27/11/2025 | 27/11/2025 | <https://000072.awsstudygroup.com/> |
+| 5   | - **Lab 73 + Thực hành:** Dashboard và ôn lại Lab 72 <br>&emsp;Xây dựng dashboard, cải thiện dashboard, tạo dashboard tương tác <br>&emsp;Thực hành xem lại các phần pipeline trong Lab 72 (Athena, Kinesis Data Analytics, QuickSight, Lambda, Redshift) <br>&emsp;Ghi chú một số best practice khi xây dựng dashboard/báo cáo | 28/11/2025 | 28/11/2025 | <https://000073.awsstudygroup.com/>, <https://000072.awsstudygroup.com/> |
 
+### 🏆 Thành tựu tuần 12
 
-### Kết quả đạt được tuần 12:
+* **Hiểu dữ liệu chi phí và sử dụng**
+  * Xây dựng database đơn giản để lưu trữ dữ liệu cost/usage
+  * Xem dữ liệu bảng, chi phí, tag và usage cơ bản
+  * Chạy một số truy vấn bổ sung và dọn dẹp tài nguyên lab
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Công cụ AWS và chuẩn bị dữ liệu**
+  * Làm quen với CloudShell, Console và SDK để thao tác với AWS
+  * Tạo môi trường Cloud9, làm việc với dataset và S3
+  * Dùng AWS Glue DataBrew để profiling, làm sạch và biến đổi dữ liệu
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Pipeline phân tích end-to-end**
+  * Nạp, lưu trữ và tạo catalog dữ liệu với Glue
+  * Biến đổi dữ liệu bằng Glue (interactive, GUI), DataBrew và EMR
+  * Phân tích dữ liệu bằng Athena và Kinesis Data Analytics
