@@ -6,25 +6,22 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt thời gian thực tập tại **CÔNG TY TNHH AMAZON WEB SERVICES VIỆT NAM** từ **09/09/2025** đến **13/12/2025**, tôi đã có cơ hội quý báu để học hỏi, rèn luyện và áp dụng kiến thức lý thuyết đã được trang bị tại trường vào môi trường làm việc chuyên nghiệp thực tế.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Trong quá trình thực tập, tôi đã tích cực tham gia vào **dự án phát triển chatbot AI thông minh sử dụng các dịch vụ AWS tiên tiến như Amazon Bedrock, Lambda Functions, S3, và API Gateway**, qua đó không chỉ nâng cao kỹ năng **sử dụng thành thạo các dịch vụ cloud AWS, phát triển kỹ năng lập trình Python và JavaScript, cải thiện khả năng làm việc nhóm hiệu quả, và học cách áp dụng AI/ML vào giải pháp thực tế**.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Về tác phong làm việc, tôi luôn duy trì thái độ tích cực, chủ động hoàn thành xuất sắc các nhiệm vụ được giao, tuân thủ nghiêm ngặt nội quy công ty, và proactive trong việc trao đổi, học hỏi từ đồng nghiệp cũng như mentor để không ngừng nâng cao hiệu quả công việc và chất lượng output.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+Để phản ánh một cách khách quan và trung thực nhất về quá trình thực tập của mình, tôi xin phép tự đánh giá bản thân dựa trên các tiêu chí chuyên nghiệp dưới đây:
 
 
 | STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ☐   | ✅   | ☐          |
 | 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
 | 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
 | 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
+| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ✅   | ☐   | ☐          |
 | 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
 | 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
 | 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
