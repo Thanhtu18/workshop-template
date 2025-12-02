@@ -1,125 +1,139 @@
 ---
-title: "Event 2"
-date: "2025-09-09"
-weight: 1
+title: "Sự kiện 2"
+date: "2025-11-17"
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo Cáo Tóm Tắt: "AWS Cloud Mastery Series #2 - DevOps on AWS"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục tiêu sự kiện
 
-### Mục Đích Của Sự Kiện
+- Tìm hiểu văn hóa và nguyên tắc DevOps trong môi trường cloud
+- Học cách xây dựng CI/CD pipeline hoàn chỉnh với AWS DevOps Services
+- Thành thạo Infrastructure as Code (IaC) với CloudFormation và CDK
+- Hiểu về Container Services trên AWS (ECR, ECS, EKS, App Runner)
+- Triển khai monitoring và observability với CloudWatch và X-Ray
+- Áp dụng DevOps best practices và học từ case studies thực tế
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Nội dung nổi bật theo chương trình
 
-### Danh Sách Diễn Giả
+#### 8:30 – 9:00 | Chào mừng & DevOps Mindset
+**Hoạt động chính:**
+- Check-in và ôn tập lại AI/ML session trước đó
+- Giới thiệu văn hóa và nguyên tắc DevOps
+- Lợi ích và các chỉ số quan trọng (DORA, MTTR, deployment frequency)
+- Tầm quan trọng của DevOps trong chuyển đổi số
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+**Điểm rút ra:**
+Hiểu được DevOps không chỉ là công cụ mà là một văn hóa làm việc, nắm được các chỉ số quan trọng để đo lường hiệu quả DevOps và cách áp dụng vào thực tế.
 
-### Nội Dung Nổi Bật
+#### 9:00 – 10:30 | AWS DevOps Services – CI/CD Pipeline
+**Nội dung chính:**
+- Source Control: AWS CodeCommit và Git strategies (GitFlow, Trunk-based)
+- Build & Test: Cấu hình CodeBuild, testing pipelines tự động
+- Deployment: CodeDeploy với Blue/Green, Canary, và Rolling updates
+- Orchestration: Tự động hóa với CodePipeline
+- Demo trực tiếp: Walkthrough toàn bộ CI/CD pipeline
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+**Điểm rút ra:**
+Nắm vững quy trình xây dựng CI/CD pipeline từ source code đến deployment, hiểu các chiến lược deployment khác nhau, và trải nghiệm thực tế với AWS DevOps tools.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### 10:30 – 10:45 | Nghỉ giải lao
+Networking và thảo luận với các chuyên gia AWS và người tham gia khác.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### 10:45 – 12:00 | Infrastructure as Code (IaC)
+**Nội dung chính:**
+- AWS CloudFormation: Templates, stacks, và drift detection
+- AWS CDK (Cloud Development Kit): Constructs, reusable patterns, và language support
+- Demo: Triển khai với CloudFormation và CDK
+- Thảo luận: Lựa chọn công cụ IaC phù hợp
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+**Điểm rút ra:**
+Hiểu sâu về Infrastructure as Code, so sánh CloudFormation và CDK, và học cách áp dụng IaC để quản lý infrastructure một cách hiệu quả và có thể tái sử dụng.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### 12:00 – 13:00 | Nghỉ trưa (Tự túc)
 
-#### Domain-Driven Design (DDD)
+#### 13:00 – 14:30 | Container Services trên AWS
+**Nội dung chính:**
+- Docker Fundamentals: Microservices và containerization
+- Amazon ECR: Image storage, scanning, lifecycle policies
+- Amazon ECS & EKS: Deployment strategies, scaling, và orchestration
+- AWS App Runner: Simplified container deployment
+- Demo & Case Study: So sánh triển khai microservices
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+**Điểm rút ra:**
+Nắm vững kiến thức về containerization, hiểu sự khác biệt giữa ECS và EKS, học cách quản lý container images với ECR, và trải nghiệm triển khai microservices thực tế.
 
-#### Event-Driven Architecture
+#### 14:30 – 14:45 | Nghỉ giải lao
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### 14:45 – 16:00 | Monitoring & Observability
+**Nội dung chính:**
+- CloudWatch: Metrics, logs, alarms, và dashboards
+- AWS X-Ray: Distributed tracing và performance insights
+- Demo: Thiết lập observability toàn diện
+- Best Practices: Alerting, dashboards, và on-call processes
 
-#### Compute Evolution
+**Điểm rút ra:**
+Học cách thiết lập monitoring và observability hiệu quả, hiểu cách sử dụng CloudWatch và X-Ray để theo dõi và debug ứng dụng, và áp dụng best practices trong alerting.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### 16:00 – 16:45 | DevOps Best Practices & Case Studies
+**Nội dung chính:**
+- Deployment strategies: Feature flags, A/B testing
+- Automated testing và CI/CD integration
+- Incident management và postmortems
+- Case Studies: DevOps transformation ở startups và enterprises
 
-#### Amazon Q Developer
+**Điểm rút ra:**
+Học được các chiến lược deployment tiên tiến, cách tích hợp automated testing, quy trình quản lý incident chuyên nghiệp, và kinh nghiệm thực tế từ các case studies.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+#### 16:45 – 17:00 | Q&A & Wrap-up
+**Nội dung chính:**
+- DevOps career pathways và cơ hội nghề nghiệp
+- AWS certification roadmap cho DevOps Engineer
+- Thảo luận mở và giải đáp thắc mắc
 
-### Những Gì Học Được
+### Điểm rút ra chính
 
-#### Tư Duy Thiết Kế
+- Hiểu biết toàn diện về DevOps culture và cách triển khai trên AWS
+- Thành thạo xây dựng CI/CD pipeline với AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline
+- Nắm vững Infrastructure as Code với CloudFormation và CDK
+- Hiểu sâu về container services: ECR, ECS, EKS, App Runner
+- Học cách thiết lập monitoring và observability với CloudWatch và X-Ray
+- Áp dụng DevOps best practices: deployment strategies, automated testing, incident management
+- Kinh nghiệm thực tế từ case studies và demos
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+### Áp dụng vào công việc
 
-#### Kiến Trúc Kỹ Thuật
+- Xây dựng CI/CD pipeline cho các dự án hiện tại
+- Áp dụng Infrastructure as Code để quản lý infrastructure
+- Triển khai containerization cho microservices architecture
+- Thiết lập monitoring và alerting system hiệu quả
+- Áp dụng deployment strategies như Blue/Green, Canary deployment
+- Cải thiện quy trình incident management và postmortem
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+### Trải nghiệm sự kiện
 
-#### Chiến Lược Hiện Đại Hóa
+Tham gia "DevOps on AWS" là một trải nghiệm cực kỳ bổ ích, giúp em hiểu sâu hơn về cách triển khai DevOps practices trong môi trường AWS cloud.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+#### Điểm nổi bật
+- **Học hỏi từ chuyên gia AWS:** Được tiếp cận kiến thức từ các Solution Architects giàu kinh nghiệm, hiểu rõ DevOps mindset và cách áp dụng trong thực tế.
+- **Demos thực hành chi tiết:** Trực tiếp quan sát quy trình xây dựng CI/CD pipeline từ đầu đến cuối, demo Infrastructure as Code với CloudFormation và CDK.
+- **Case studies thực tế:** Học hỏi từ các trường hợp triển khai DevOps thành công ở cả startups và enterprises.
+- **Networking chất lượng:** Cơ hội thảo luận với các DevOps Engineers và Cloud Architects, chia sẻ kinh nghiệm và thách thức trong công việc.
 
-### Ứng Dụng Vào Công Việc
+#### Bài học quan trọng
+- DevOps là một journey, không phải destination - cần áp dụng từng bước và cải thiện liên tục
+- Infrastructure as Code là foundation quan trọng cho DevOps scalable
+- Monitoring và observability là chìa khóa để maintain system reliability
+- Container technology là future của application deployment
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+#### Một số hình ảnh sự kiện
+![Hình ảnh sự kiện](/images/4-EventParticipated/even2.1.jpg)
+![Hình ảnh sự kiện](/images/4-EventParticipated/even2.2.jpg)
+![Hình ảnh sự kiện](/images/4-EventParticipated/even2.3.jpg)
+![Hình ảnh sự kiện](/images/4-EventParticipated/even2.4.jpg)
+![Hình ảnh sự kiện](/images/4-EventParticipated/even2.5.jpg)
 
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Sự kiện này không chỉ cung cấp kiến thức kỹ thuật mà còn giúp em hiểu được tầm quan trọng của DevOps culture trong việc cải thiện collaboration giữa Development và Operations teams, từ đó nâng cao chất lượng và tốc độ delivery của sản phẩm.
