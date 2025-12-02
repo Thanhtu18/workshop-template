@@ -24,13 +24,14 @@ pre: " <b> 7. </b> "
 
 ### Một số câu hỏi khác
 
-### Một số câu hỏi khác
-
 - Điều bạn **hài lòng nhất** trong thời gian thực tập? 
+
     - Điều khiến em hài lòng và yêu thích nhất chính là **tinh thần hỗ trợ và tính kỷ luật của doanh nghiệp** của tất cả các anh/chị trong team FCJ. Bất cứ khi nào em gặp vướng mắc, em đều nhận được sự hướng dẫn tận tình, giúp em cảm thấy tự tin và vững vàng hơn rất nhiều trong công việc.
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau? 
+
     - Để giúp các bạn thực tập sinh cảm thấy gắn bó và thân thiết hơn với nhau cũng như với văn hóa công ty, em mong công ty có thể tăng cường các hoạt động kết nối. Cụ thể, em đề xuất: **Tổ chức các buổi gặp mặt của các thành viên trong nhóm tụi em** để mọi người có cơ hội giao lưu, làm quen và , làm việc với nhau dễ hơn. Ngoài ra, nếu có thêm các buổi **Training chuyên sâu về các mảng nghiệp vụ** thì sẽ rất hữu ích cho định hướng phát triển chuyên môn của tụi em.
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao? 
+
     - **Chắc chắn là CÓ ạ!** Em sẽ giới thiệu ngay lập tức. Đây là một môi trường làm việc lý tưởng: chuyên nghiệp nhưng vô cùng ấm áp, mentor thì tận tâm, và công việc rõ ràng, phù hợp để phát triển kỹ năng toàn diện, từ chuyên môn đến tác phong làm việc.
 
 ---
@@ -38,10 +39,13 @@ pre: " <b> 7. </b> "
 ### Đề xuất & mong muốn
 
 - Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập? 
+
     - Em đề xuất tập trung vào việc xây dựng cộng đồng và kết nối, đặc biệt là:
         * **Tăng cường các buổi giao lưu trực tiếp tại văn phòng:** Như em đã đề xuất, các buổi gặp mặt theo team nhỏ sẽ giúp mọi người thân thiết, gắn bó hơn và hiểu rõ hơn về văn hóa công ty, cũng như công việc.
         * **Tổ chức thêm các buổi chia sẻ kinh nghiệm** hoặc kiến thức nội bộ (Internal Knowledge Sharing) giữa các phòng ban để mở rộng kiến thức và tầm nhìn cho thực tập sinh.
 - Bạn có muốn tiếp tục chương trình này trong tương lai?
+
     - Em rất **mong muốn** được tiếp tục đồng hành cùng AWS Vietnam trong tương lai, vì em thực sự tìm thấy môi trường làm việc tích cực và cơ hội phát triển bản thân rất lớn tại đây.
 - Góp ý khác (tự do chia sẻ):
+
     - Em xin gửi lời cảm ơn chân thành nhất đến Công ty và Team FCJ đã tạo điều kiện và hỗ trợ em hết mình. Em hy vọng chương trình thực tập sẽ ngày càng hoàn thiện, và những góp ý của em sẽ giúp chương trình mang lại nhiều giá trị hơn nữa cho các thế hệ thực tập sinh sau này!
