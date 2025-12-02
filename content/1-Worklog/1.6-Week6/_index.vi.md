@@ -1,7 +1,7 @@
 ---
 title: "Nhật ký tuần 6"
 date: "2025-10-13"
-weight: 1
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
