@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
->Tại đây tôi muốn chia sẻ những cảm nhận chân thành nhất về trải nghiệm thực tập tại AWS Vietnam, hy vọng những góp ý này có thể giúp team FCJ và các thế hệ thực tập sinh sau có những trải nghiệm tốt hơn.
+>Tại đây Em Đặng Thanh Tú muốn chia sẻ những cảm nhận chân thành nhất về trải nghiệm thực tập tại AWS Vietnam, hy vọng những góp ý này có thể giúp team FCJ và các thế hệ thực tập sinh sau có những trải nghiệm tốt hơn.
 
 ### Đánh giá chung
 
