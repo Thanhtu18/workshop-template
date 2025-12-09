@@ -7,6 +7,8 @@ pre: " <b> 2. </b> "
 ---
 # TaskHub - Nền tảng quản lý nhiệm vụ và tiến độ theo mô hình DevSecOps trên AWS
 
+> **Bản đề xuất Document:** [xem trên Google Docs](https://docs.google.com/document/d/14wEgjSuUkQs6SSVXwNQr4wmjwORjntfDizzC4zmPZIY/edit?tab=t.0)
+
 ### **1. Tóm tắt điều hành**
 
 TaskHub là nền tảng quản lý nhiệm vụ và tiến trình được thiết kế nhằm

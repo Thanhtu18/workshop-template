@@ -6,8 +6,9 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-
 # TaskHub - Task and Progress Management Platform following the DevSecOps Model on AWS
+
+> **Proposal Document:** [View on Google Docs](https://docs.google.com/document/d/14wEgjSuUkQs6SSVXwNQr4wmjwORjntfDizzC4zmPZIY/edit?tab=t.0)
 
 ### **1. Executive Summary**
 
