@@ -34,3 +34,34 @@ Chúng ta sẽ tạo một hệ thống bao gồm frontend, backend API, databas
 4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
 5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
 6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+
+[Thiết lập Chính sách Quyền hạn (IAM Policy)](5.3-Policy/)
+[Triển khai hàm phi máy chủ với AWS Lambda](5.4-Lambda/)
+[Xây dựng Cổng API với Amazon API Gateway](5.5-APIGateway/)
+[Sử dụng Cơ sở dữ liệu NoSQL hiệu năng cao Amazon DynamoDB](5.6-DynamoDB/)
+[Lưu trữ đối tượng đơn giản và bảo mật với Amazon S3](5.7-S3/)
+[Tăng tốc độ phân phối nội dung với Amazon CloudFront (CDN)](5.8-CloudFront/)
+[Quản lý danh tính và truy cập người dùng với Amazon Cognito](5.9-Cognito/)
+[Quản lý khóa mã hóa với AWS Key Management Service (KMS)](5.10-KeyManagementService/)
+[Xây dựng Quy trình CI/CD với AWS CodePipeline](5.11-CodePileline/)
+[Tự động hóa xây dựng và kiểm thử mã nguồn với AWS CodeBuild](5.12-CodeBuild/)
+[Đánh giá và tối ưu mã nguồn tự động bằng Amazon CodeGuru](5.13-CodeGuru/)
+[Quản lý Cơ sở hạ tầng dưới dạng mã (IaC) với AWS CloudFormation](5.14-CloudFormation/)
+[Thu thập, giám sát và phân tích nhật ký với Amazon CloudWatch Logs](5.15-CloudWatchLogs/)
+
+[Sử dụng Dịch vụ Thông báo Đơn giản Amazon SNS](5.16-SNS/)
+
+[Thiết lập Giám sát và Báo động Hiệu năng với Amazon CloudWatch](5.17-CloudWatch/)
+
+
+
+
+
+
+
+
+
+
+
+
+

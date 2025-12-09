@@ -30,3 +30,21 @@ We will create a system that includes frontend, backend API, database, and a com
 4. [Access S3 from On-premises](5.4-S3-onprem/)
 5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
 6. [Clean up](5.6-Cleanup/)
+
+[Setting Up IAM Policy](5.3-Policy/)
+[Deploying Serverless Functions with AWS Lambda](5.4-Lambda/)
+[Building an API Gateway with Amazon API Gateway](5.5-APIGateway/)
+[Using Amazon DynamoDB High-Performance NoSQL Database](5.6-DynamoDB/)
+[Simple and Secure Object Storage with Amazon S3](5.7-S3/)
+[Accelerating Content Delivery with Amazon CloudFront (CDN)](5.8-CloudFront/)
+[Managing User Identity and Access with Amazon Cognito](5.9-Cognito/)
+[Managing Encryption Keys with AWS Key Management Service (KMS)](5.10-KeyManagementService/)
+[Building CI/CD Pipelines with AWS CodePipeline](5.11-CodePileline/)
+[Automate code building and testing with AWS CodeBuild](5.12-CodeBuild/)
+[Automate code review and optimization with Amazon CodeGuru](5.13-CodeGuru/)
+[Manage Infrastructure as Code (IaC) with AWS CloudFormation](5.14-CloudFormation/)
+[Collect, monitor, and analyze logs with Amazon CloudWatch Logs](5.15-CloudWatchLogs/)
+
+[Use Amazon SNS Simple Notification Service](5.16-SNS/)
+
+[Set up Performance Monitoring and Alarming with Amazon CloudWatch](5.17-CloudWatch/)
