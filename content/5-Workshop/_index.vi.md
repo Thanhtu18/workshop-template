@@ -10,18 +10,21 @@ pre: " <b> 5. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Xây dựng Nền tảng Quản lý Nhiệm vụ với DevOps trên AWS Serverless
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+**AWS Serverless** cho phép xây dựng và triển khai ứng dụng mà không cần quản lý máy chủ, tự động mở rộng theo nhu cầu và chỉ trả phí cho những gì bạn sử dụng.
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Trong workshop này, chúng ta sẽ học cách thiết kế, xây dựng và triển khai một nền tảng quản lý nhiệm vụ (TaskHub) hoàn chỉnh sử dụng kiến trúc serverless và quy trình DevSecOps tự động hóa.
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+Chúng ta sẽ tạo một hệ thống bao gồm frontend, backend API, database và CI/CD pipeline hoàn chỉnh. Workshop tập trung vào ba thành phần chính để xây dựng ứng dụng production-ready trên AWS:
+
++ **Serverless Backend** - Sử dụng AWS Lambda để xử lý nghiệp vụ, API Gateway làm cổng giao tiếp, DynamoDB lưu trữ dữ liệu, và Cognito quản lý xác thực người dùng với chi phí tối ưu.
+
++ **Content Delivery** - Triển khai ứng dụng Next.js trên S3, phân phối toàn cầu qua CloudFront với độ trễ thấp, và bảo vệ bằng AWS WAF chống các cuộc tấn công web phổ biến.
+
++ **DevOps Pipeline** - Tự động hóa quy trình build, test và deploy sử dụng CodePipeline và CodeBuild, tích hợp kiểm tra bảo mật với CodeGuru, và quản lý infrastructure as code với CloudFormation.
 
 #### Nội dung
 
