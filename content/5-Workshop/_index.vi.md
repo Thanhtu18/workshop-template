@@ -32,12 +32,12 @@ Chúng ta sẽ tạo một hệ thống bao gồm frontend, backend API, databas
 2. [Chuẩn bị](5.2-Prerequiste/)
 3. [Triển khai hàm phi máy chủ với AWS Lambda](5.3-Lambda/)
 4. [Xây dựng Cổng API với Amazon API Gateway](5.4-APIGateway/)
-6. [Lưu trữ đối tượng đơn giản và bảo mật với Amazon S3](5.6-S3/)
-7. [Tăng tốc độ phân phối nội dung với Amazon CloudFront (CDN)](5.7-CloudFront/)
-8. [Quản lý danh tính và truy cập người dùng với Amazon Cognito](5.8-Cognito/)
-9. [Quản lý khóa mã hóa với AWS Key Management Service (KMS)](5.9-KeyManagementService/)
-17. [SrcetManager](5.17-SecretManager/)
-18. [WAF](5.18-WAF/)
+5. [Lưu trữ đối tượng đơn giản và bảo mật với Amazon S3](5.6-S3/)
+6. [Tăng tốc độ phân phối nội dung với Amazon CloudFront (CDN)](5.7-CloudFront/)
+7. [Quản lý danh tính và truy cập người dùng với Amazon Cognito](5.8-Cognito/)
+8. [Quản lý khóa mã hóa với AWS Key Management Service (KMS)](5.9-KeyManagementService/)
+9. [SrcetManager](5.17-SecretManager/)
+10. [WAF](5.18-WAF/)
 
 
 
