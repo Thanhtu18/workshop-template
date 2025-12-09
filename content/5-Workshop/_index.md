@@ -6,13 +6,13 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-# Building a Task Management Platform with DevSecOps on AWS Serverless
+# Building a Task Management Platform with DevOps on AWS Serverless
 
 #### Overview
 
 **AWS Serverless** enables you to build and deploy applications without managing servers, automatically scales based on demand, and you only pay for what you use.
 
-In this workshop, we will learn how to design, build, and deploy a complete task management platform (TaskHub) using serverless architecture and automated DevSecOps practices.
+In this workshop, we will learn how to design, build, and deploy a complete task management platform **TaskHub** using serverless architecture and automated DevSecOps practices.
 
 We will create a system that includes frontend, backend API, database, and a complete CI/CD pipeline. The workshop focuses on three main components to build a production-ready application on AWS:
 
@@ -20,7 +20,7 @@ We will create a system that includes frontend, backend API, database, and a com
 
 + **Content Delivery** - Deploy Next.js application on S3, distribute globally via CloudFront with low latency, and protect with AWS WAF against common web attacks.
 
-+ **DevSecOps Pipeline** - Automate the build, test, and deploy process using CodePipeline and CodeBuild, integrate security scanning with CodeGuru, and manage infrastructure as code with CloudFormation.
++ **DevOps Pipeline** - Automate the build, test, and deploy process using CodePipeline and CodeBuild, integrate security scanning with CodeGuru, and manage infrastructure as code with CloudFormation.
 
 #### Content
 

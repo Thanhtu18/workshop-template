@@ -16,7 +16,7 @@ pre: " <b> 5. </b> "
 
 **AWS Serverless** cho phép xây dựng và triển khai ứng dụng mà không cần quản lý máy chủ, tự động mở rộng theo nhu cầu và chỉ trả phí cho những gì bạn sử dụng.
 
-Trong workshop này, chúng ta sẽ học cách thiết kế, xây dựng và triển khai một nền tảng quản lý nhiệm vụ (TaskHub) hoàn chỉnh sử dụng kiến trúc serverless và quy trình DevSecOps tự động hóa.
+Trong workshop này, chúng ta sẽ học cách thiết kế, xây dựng và triển khai một nền tảng quản lý nhiệm vụ **TaskHub** hoàn chỉnh sử dụng kiến trúc serverless và quy trình DevSecOps tự động hóa.
 
 Chúng ta sẽ tạo một hệ thống bao gồm frontend, backend API, database và CI/CD pipeline hoàn chỉnh. Workshop tập trung vào ba thành phần chính để xây dựng ứng dụng production-ready trên AWS:
 
